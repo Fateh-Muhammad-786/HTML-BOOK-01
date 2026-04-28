@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLES</title>
+</head>
+
+<body style="font-family: sans-serif;">
+
+    <!-- BASIC TABLE STRUCTURE -->
+
+    <h1 style="color: red; text-align: center;">BASIC TABLE STRUCTURE</h1>
+
+    <table>
+        <tr>
+            <td>15</td>
+            <td>12</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>30</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>40</td>
+            <td>90</td>
+        </tr>
+
+    </table>
+    <br><br>
+
+    <!-- TABLE HEADINGS -->
+
+    <h1 style="color: red; text-align: center;">TABLE HEADINGS</h1>
+
+    <table border="1">
+        <tr style="color: blue;">
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Class</th>
+            <th>Class Timing</th>
+        </tr>
+        <tr>
+            <td>Fateh Muhammad</td>
+            <td>Ghulam Haider</td>
+            <td>Web Development</td>
+            <td>5pm to 9pm</td>
+        </tr>
+        <tr>
+            <td>Ali Akber</td>
+            <td>Rasool Busksh</td>
+            <td>Web Development</td>
+            <td>5pm to 9pm</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- SPANNING ROWS -->
+
+    <h1 style="color: red; text-align: center;">SPANNING ROWS</h1>
+
+    <table border="1">
+        <tr style="color: blue;">
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Class</th>
+            <th>Class Timing</th>
+        </tr>
+        <tr>
+            <td>Fateh Muhammad</td>
+            <td>Ghulam Haider</td>
+            <td rowspan="2">Web Development</td>
+            <td rowspan="2">5pm to 9pm</td>
+        </tr>
+        <tr>
+            <td>Ali Akber</td>
+            <td>Rasool Busksh</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- SPANNING COLUMNS -->
+
+    <h1 style="color: red; text-align: center;">SPANNING COLUMNS</h1>
+
+    <table border="1">
+        <tr style="color: red;">
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th style="color: blue;">Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th style="color: blue;">Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <!-- LONG TABLES -->
+
+    <h1 style="color: red; text-align: center;">LONG TABLES</h1>
+
+    <table border="1">
+        <thead>
+            <tr style="color: red;">
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th style="color: blue;">1st January</th>
+                <td>150</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">2nd January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">3rd January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">4th January</th>
+                <td>3305</td>
+                <td>356</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">5th January</th>
+                <td>3005</td>
+                <td>306</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">6th January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">7th January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">8th January</th>
+                <td>3905</td>
+                <td>306</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">9th January</th>
+                <td>3075</td>
+                <td>366</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">10th January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">11th January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">12th January</th>
+                <td>3205</td>
+                <td>326</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">13th January</th>
+                <td>605</td>
+                <td>396</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">14th January</th>
+                <td>705</td>
+                <td>306</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">15th January</th>
+                <td>345</td>
+                <td>376</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">16th January</th>
+                <td>3905</td>
+                <td>366</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">17th January</th>
+                <td>3051</td>
+                <td>365</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">18th January</th>
+                <td>3505</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">19th January</th>
+                <td>365</td>
+                <td>368</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">20th January</th>
+                <td>385</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">21st January</th>
+                <td>325</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">22nd January</th>
+                <td>375</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">23rd January</th>
+                <td>305</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">24th January</th>
+                <td>45</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">25th January</th>
+                <td>65</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">26th January</th>
+                <td>200</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">27th January</th>
+                <td>105</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">28th January</th>
+                <td>35</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">29th January</th>
+                <td>305</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">30th January</th>
+                <td>35</td>
+                <td>360</td>
+            </tr>
+            <tr>
+                <th style="color: blue;">31st January</th>
+                <td>304</td>
+                <td>50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr style="color: red;">
+                <th rowspan="2">Total</th>
+                <th>9885</th>
+                <th>4432</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+</body>
+
+</html>
